@@ -16,7 +16,9 @@ EventBridge (hourly) → Lambda (fetch) → USGS earthquake feed
                      Glue crawler → Glue Data Catalog → Athena
 ```
 
-Diagram: `docs/architecture.png`. Full design: `docs/design-brief.md`.
+![Serverless data lake architecture](docs/architecture.png)
+
+Full design: `docs/design-brief.md`.
 
 ## The feed
 
